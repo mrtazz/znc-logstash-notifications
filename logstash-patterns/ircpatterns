@@ -1,0 +1,4 @@
+NOTIFYME (pizza|cupcakes)
+IRCNOTIFY %{DATA}%{NOTIFYME}%{GREEDYDATA}
+IRCTIME [0-9:]{8}
+IRCCHANNELS (nagios|chef|stuff)
